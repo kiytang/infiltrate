@@ -10,4 +10,4 @@
 The method used required renaming, as RSpec uses 'inject' internally to operate.
 
 ####Other details
-The test was set by Enrique Comba Riepenhausen {@ecomba](http://www.github.com/ecomba)}
+The test was set by Enrique Comba Riepenhausen [@ecomba](http://www.github.com/ecomba)}

@@ -54,7 +54,3 @@ describe Array do
   	end
   end
  end
-
-		
-  	# take default values both words and numbers
-  	# add string of words with a default wordsreturn longest word from a collection of wordstring words together

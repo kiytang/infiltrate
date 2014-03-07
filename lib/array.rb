@@ -4,17 +4,17 @@
 # the result becomes the new value for memo. At the end of the iteration, 
 # the final value of memo is the return value for the method.
 class Array
-  			
-	def infiltrate(memo = self.first)
-		if memo == self.first
-			self[1..-1].each do |element|
-			memo = yield(memo, element)
-			end
-		else
-			self[0..-1].each do |element|
-			memo = yield(memo, element)
-			end
-		end	
-		memo			
-	end
+    
+  def infiltrate(memo = self.first)
+    if memo == self.first
+      self[1..-1].each do |element|
+      memo = yield(memo, element)
+      end
+    else
+      self[0..-1].each do |element|
+      memo = yield(memo, element)
+      end
+    end 
+    memo      
+  end
 end

@@ -13,8 +13,8 @@ class Array
 		else
 			self[0..-1].each do |element|
 			memo = yield(memo, element)
-		end
-	end	
+			end
+		end	
 		memo			
 	end
 end

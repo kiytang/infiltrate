@@ -1,7 +1,7 @@
 ##Infiltrate
 ##Makers Academy Week 4 Test, Part I
 
-###Aim
+###Aim:
 1/ Reopen the Array class
 
 2/ Rewrite the inject method using RSpec
